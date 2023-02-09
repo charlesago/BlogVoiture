@@ -5,6 +5,7 @@
 
 
 <p><strong><?= $voiture->getDescription() ?></strong></p>
+    <img width="50px" src="images/<?=$voiture->getImage()?>" alt="">
 <a href="index.php" class="btn btn-primary">retour</a>
 <a href="?type=voiture&action=remove&id=<?= $voiture->getId() ?>" class="btn btn-danger">supprimer</a>
 <hr>
